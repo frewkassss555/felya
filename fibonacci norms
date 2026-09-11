@@ -1,0 +1,7 @@
+a = int(input())
+f1 = 1 #фибоначчи
+f2 = 2 
+
+for i in range(a):
+    print(f1, end=' ')
+    f1, f2 = f2, f1 + f2
