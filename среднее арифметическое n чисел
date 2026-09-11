@@ -1,0 +1,9 @@
+a = int(input())
+i=1
+s=0
+while i<=a:
+    num=float(input())
+    s=s+num
+    i=i+1
+b=s/(i-1)
+print(b)
