@@ -1,0 +1,11 @@
+i=0
+b=0
+while True:
+    a = int(input())
+    if a==0:
+        break
+    if a not in [1,2,5,10]:
+        i=i+1
+    if a in [1,2,5,10]:
+        b=b+a
+print(b,i)
