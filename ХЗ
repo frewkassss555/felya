@@ -1,0 +1,15 @@
+a = int(input())
+n=a
+b=0
+c=9
+while n>0:
+    f=n%10
+    n=n//10
+    if f<c:
+        c=f
+while a>0:
+    d=a%10
+    a=a//10
+    if d>b:
+        b=d
+print(b,c,sep=' ')
