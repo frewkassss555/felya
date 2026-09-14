@@ -1,0 +1,12 @@
+a=20
+i=0
+f=0
+while a>0:
+    b = int(input())
+    if b==0:
+        break
+    if b>=80:
+        i=i+1
+    else:
+        f=f+1
+print(i,f)
