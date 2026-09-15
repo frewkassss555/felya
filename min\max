@@ -1,0 +1,16 @@
+a = int(input())
+b = int(input())
+i=0
+d=0
+max_d=0
+while True:
+    c = int(input())
+    if c==0:
+        break
+    if a<=c<=b:
+        i=i+1
+    else:
+        i=0
+    if i != 0:
+        max_d=max(max_d,i)
+print(max_d)
