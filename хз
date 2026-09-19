@@ -1,0 +1,37 @@
+n = int(input())
+
+  
+
+x1 = 7
+
+x2 = 4
+
+n
+
+s = n // x1
+
+  
+
+while s >= 0:
+
+    e = n - x1 * s
+
+  
+
+    if e % x2 == 0:
+
+        d = e // x2
+
+        print(d, s)
+
+        break
+
+  
+
+    s = s - 1
+
+  
+
+else:
+
+    print('No')
