@@ -1,0 +1,35 @@
+n=int(input())
+
+i=0
+
+s=0
+
+original=n
+
+g=n
+
+e=0
+
+while n>0:
+
+    n=n//10
+
+    i=i+1
+
+while original>0:
+
+    s=original%10
+
+    no=(s**i)
+
+    e=e+no
+
+    original=original//10
+
+if g==e:
+
+    print('Yes')
+
+else:
+
+    print('No')
