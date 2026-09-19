@@ -1,0 +1,18 @@
+a = int(input())
+b = int(input())
+i=0
+while True:
+    c = int(input())
+    if c==-999:
+        break
+    if c < a or c > b:
+        i=i+1
+        if i==3:
+            break
+    else:
+        i=0
+if i==3:
+    print('!!!')
+else:
+    print('ok')
+    
