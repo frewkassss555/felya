@@ -1,0 +1,12 @@
+h1 = int(input())
+h2 = int(input())
+i=0
+while True:
+    h3 = int(input())
+    if h3 == 0:
+        break
+    if h2 > h1 and h2 > h3:
+        i = i + 1
+    h1 = h2
+    h2 = h3
+print(i)
