@@ -1,0 +1,25 @@
+n=int(input())
+
+i=0
+
+nec=0
+
+chet=0
+
+while n>0:
+
+    s=n%10
+
+    i=i+1
+
+    n=n//10
+
+    if i%2!=0: #нечётное
+
+        nec=nec+s
+
+    else:
+
+        chet=chet+s
+
+print('Нечётные ',nec,'Чётные ',chet)
